@@ -216,7 +216,7 @@
 			//customized
 			//Added code to account for caption. Need to put if statement to calc height of captions, if available.
 			// Image is 960px x 530px with 50px for the caption
-			height += 50;
+			//height += 50;
       this.options.width = width;
       this.options.height = height;
       return $(".slidesjs-control, .slidesjs-container", $element).css({
