@@ -38,12 +38,12 @@ h2 {
 
 
 a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: white;
 }
 
 a:hover {
-	text-decoration: underline;
+	color: yellow;
 }
 
 
