@@ -14,7 +14,7 @@ body {
 h1, h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	margin:0 0 15px 0;
+	margin:20px 0 20px 0;
 }
 
 
@@ -130,7 +130,7 @@ a:hover {
 	height: 35px;
 	width: 16%;
 	float: left;
-	margin: 0px 0px 0 0;
+	margin: 0 0 0 0;
 	text-decoration: none;
 	font-size: 14px;
 	padding: 15px 0 0 0;
@@ -145,7 +145,7 @@ a:hover {
 
 /* SECTIONS */
 .sTop {
-	min-height: 630px;
+	min-height: 370px;
 	background: url(../images/bg.jpg) top left repeat-x;
 	color: #171948;
 }
@@ -157,24 +157,25 @@ a:hover {
 	background: #231B57;
 }
 
-.s1 p {
-	columns: 100px 2;
-	-webkit-columns: 100px 2; /* Safari and Chrome */
-	-moz-columns: 100px 2; /* Firefox */
-	margin-left: 300px;
-}
-
-.s1 img {
-	margin-top: -900px;
-	vertical-align: text-top;
-}
-
 
 .s2 {
-	min-height: 500px;
+	min-height: 600px;
 	background: #32296E;
 }
 
+.s2 p {
+	columns: 200px 2;
+	-webkit-columns: 200px 2; /* Safari and Chrome */
+	-moz-columns: 200px 2; /* Firefox */
+	margin-left: 250px;
+}
+
+.s2 img {
+	width: 30%!important;
+	float: left;
+	margin-left: -90px;
+	vertical-align: text-top;
+}
 
 .s3 {
 	min-height: 500px;
