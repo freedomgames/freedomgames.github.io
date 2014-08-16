@@ -210,16 +210,27 @@ a:hover {
 
 .s6 p {
 	margin-left: 200px;
-	margin-top: 50px;
+	width: 50%;
 }
 
 .s6 img {
 	float: left;
 }
 
+.s6 #devlink {
+	margin-top: -120px;
+	float: right;
+	padding: 10px;
+	background: #E05310;
+}
+
+.s6 a {
+	text-decoration: none;
+}
 
 
-/* PICTURES & PARTNER */
+
+/* PICTURES */
 
 .figure {
 	margin-right: 45px;
